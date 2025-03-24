@@ -1,76 +1,46 @@
-# Dairy Connect Platform
+# Getting Started with Create React App
 
-A platform to connect potential dairy importers worldwide with major dairy product manufacturers in India.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- User authentication for importers and manufacturers
-- Profile management for both importers and manufacturers
-- Product listing and search functionality
-- Real-time messaging system
-- Dashboard for tracking connections and communications
-- Advanced search and filtering options
+In the project directory, you can run:
 
-## Tech Stack
+### `npm start`
 
-- Frontend: React.js with TypeScript
-- Backend: Node.js with Express
-- Database: MongoDB
-- Authentication: JWT
-- UI Framework: Material-UI
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Prerequisites
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Node.js (v14 or higher)
-- MongoDB
-- npm or yarn
+### `npm test`
 
-## Setup Instructions
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone the repository
-2. Install dependencies:
+### `npm run build`
 
-   ```bash
-   # Install backend dependencies
-   cd backend
-   npm install
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-   # Install frontend dependencies
-   cd ../frontend
-   npm install
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. Create a `.env` file in the backend directory with the following variables:
-   ```
-   MONGODB_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
-   PORT=5000
-   ```
-4. Start the development servers:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   # Start backend server
-   cd backend
-   npm run dev
+### `npm run eject`
 
-   # Start frontend server
-   cd frontend
-   npm start
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Project Structure
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-dairy-connect/
-├── frontend/           # React frontend application
-├── backend/           # Node.js backend application
-└── README.md         # Project documentation
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Contributing
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
